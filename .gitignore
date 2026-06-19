@@ -9,11 +9,6 @@
 *.DNG
 *.raw
 
-# --- Rohdaten-Ordner der Vollerhebung, egal an welcher Stelle ---
-# Der kleine Beispieldatensatz (ein Standort, als ps_output.npz plus
-# master.csv und CVAT-XML) wird bewusst eingecheckt und ist NICHT betroffen.
-**/01_Rohdaten/
-
 # --- Python ---
 __pycache__/
 *.py[cod]
