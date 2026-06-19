@@ -1,0 +1,19 @@
+# Python-Pakete fuer die Verarbeitungspipeline (N01 bis N04)
+# Installation:  pip install -r requirements.txt
+#
+# Die Versionen sind bewusst nicht festgepinnt, da die Pipeline in einer
+# Standard-Colab-Umgebung (Stand 2026) entwickelt wurde. Fuer eine streng
+# reproduzierbare Umgebung koennen die exakten Versionen aus dem
+# Entwicklungssystem ergaenzt werden (pip freeze).
+
+numpy
+scipy
+pandas
+matplotlib
+seaborn
+scikit-learn
+opencv-python
+rawpy
+plotly
+Pillow
+joblib

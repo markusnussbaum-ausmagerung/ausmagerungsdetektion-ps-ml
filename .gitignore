@@ -1,0 +1,30 @@
+# ============================================================
+# .gitignore
+# Verhindert, dass temporaere Dateien und (wichtig) grosse Rohdaten
+# versehentlich ins oeffentliche Repository gelangen.
+# ============================================================
+
+# --- Rohdaten (NIE ins Repo, Groesse und Ortsbezug) ---
+*.dng
+*.DNG
+*.raw
+
+# --- Rohdaten-Ordner der Vollerhebung, egal an welcher Stelle ---
+# Der kleine Beispieldatensatz (ein Standort, als ps_output.npz plus
+# master.csv und CVAT-XML) wird bewusst eingecheckt und ist NICHT betroffen.
+**/01_Rohdaten/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- Betriebssystem / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

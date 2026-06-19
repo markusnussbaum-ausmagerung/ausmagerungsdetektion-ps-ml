@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>4074016</id>
+      <size>4</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-06-03 20:05:09.564388+00:00</created>
+      <updated>2026-06-03 20:09:32.453204+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>3</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>4072267</id>
+          <start>0</start>
+          <stop>3</stop>
+          <url></url>
+        </segment>
+      </segments>
+      <owner>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>ausgemagert</name>
+          <color>#fa3253</color>
+          <type>polygon</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>uebergang_unklar</name>
+          <color>#f59331</color>
+          <type>polygon</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>andere_schaeden</name>
+          <color>#b83df5</color>
+          <type>polygon</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2026-06-03 20:09:47.104043+00:00</dumped>
+  </meta>
+  <image id="0" name="S007_v1a_original_LED07_vorne.png" width="1500" height="1500">
+  </image>
+  <image id="1" name="S007_v2_lambert_geometric.png" width="1500" height="1500">
+  </image>
+  <image id="2" name="S007_v3_lambert_albedo.png" width="1500" height="1500">
+  </image>
+  <image id="3" name="S007_v4_nz_karte.png" width="1500" height="1500">
+    <polygon label="ausgemagert" source="manual" occluded="0" points="196.79,0.00;171.81,115.17;154.20,254.80;127.30,414.90;73.80,672.60;49.30,914.80;181.80,1035.30;236.20,1403.00;383.00,1500.00;621.60,1500.00;1089.54,1500.00;1296.30,1436.10;1377.20,1224.70;1365.40,987.90;1347.30,627.30;1391.84,374.90;1346.00,181.80;1395.10,0.00" z_order="0">
+    </polygon>
+    <polygon label="uebergang_unklar" source="manual" occluded="0" points="0.00,962.84;103.11,1062.16;110.93,1211.75;38.58,1386.86;0.00,1386.30" z_order="0">
+    </polygon>
+    <polygon label="uebergang_unklar" source="manual" occluded="0" points="1500.00,318.93;1391.84,374.90;1347.30,627.30;1365.40,987.90;1377.20,1224.70;1500.00,1500.00" z_order="0">
+    </polygon>
+  </image>
+</annotations>
