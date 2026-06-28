@@ -17,7 +17,7 @@ statistische Repraesentativitaet (sieben Standorte, eine Deckschicht AC 8).
 
 Die DNG-Rohaufnahmen sind nicht Teil dieses Repositoriums. Sie sind zu gross
 und tragen einen Ortsbezug. Enthalten ist stattdessen ein kleiner
-Beispieldatensatz (ein Standort als Zwischenprodukt `ps\_output.npz`), mit dem
+Beispieldatensatz (ein Standort als Zwischenprodukt `ps\\\_output.npz`), mit dem
 sich die Schritte ab N02 nachvollziehen lassen. Die beiden ersten Schritte
 N01 und N01b benoetigen die Rohbilder und sind hier als dokumentierter
 Verfahrensschritt enthalten, laufen am Beispiel aber nicht mit.
@@ -33,20 +33,19 @@ Verfahrensschritt enthalten, laufen am Beispiel aber nicht mit.
 │
 ├── notebooks/                    die Verarbeitungspipeline N01 bis N04
 │
-├── 03\_Hardware\_Fotobox/
-│   └── 05\_Kalibrierung/          Kamera-, LED- und GSD-Kalibrierdateien (.npz)
+├── 03\\\_Hardware\\\_Fotobox/
+│   └── 05\\\_Kalibrierung/          Kamera-, LED- und GSD-Kalibrierdateien (.npz)
 │
-├── 04\_Daten\_Felderhebung/        Beispieldatensatz (ein Standort)
-│   ├── 00\_Master/master.csv      Standort-Metadaten (ortsbezogene Spalten entfernt)
-
-│   ├── 01\_Rohdaten/		  Beispielhafter Auszug aus den Rohdaten als JPEG
-│   ├── 02\_Verarbeitet/           ps\_output.npz des Beispielstandorts
-│   └── 03\_Annotation/            zugehoerige CVAT-Annotation (XML)
+├── 04\\\_Daten\\\_Felderhebung/        Beispieldatensatz (ein Standort)
+│   ├── 00\\\_Master/master.csv      Standort-Metadaten (ortsbezogene Spalten entfernt)
+│   ├── 01\\\_Rohdaten/		   Beispielhafter Auszug aus den Rohdaten als JPEG
+│   ├── 02\\\_Verarbeitet/           ps\\\_output.npz des Beispielstandorts
+│   └── 03\\\_Annotation/            zugehoerige CVAT-Annotation (XML)
 │
 └── hardware/                     Steuerungs- und Kalibrierskripte der Fotobox
 ```
 
-Die Ordnernamen unter `03\_` und `04\_` entsprechen der in der Masterarbeit
+Die Ordnernamen unter `03\\\_` und `04\\\_` entsprechen der in der Masterarbeit
 beschriebenen Projektablage. Die vollstaendige Datenmenge der sieben Standorte
 liegt ausserhalb des Repositoriums.
 
@@ -68,7 +67,7 @@ sind und die Daten am erwarteten Ort liegen.
 Jedes Notebook entscheidet zu Beginn selbst, wo es laeuft. In Colab haengt es
 Google Drive ein und zeigt auf die dortige Projektablage. Lokal verwendet es
 das aktuelle Verzeichnis als Wurzel. Der Wurzelpfad laesst sich ueber die
-Umgebungsvariable `MA\_BASIS` ueberschreiben.
+Umgebungsvariable `MA\\\_BASIS` ueberschreiben.
 
 ```python
 # Beispiel lokal: Daten liegen im aktuellen Ordner
@@ -76,7 +75,7 @@ Umgebungsvariable `MA\_BASIS` ueberschreiben.
 
 # Beispiel: Daten liegen woanders
 import os
-os.environ\["MA\_BASIS"] = "/pfad/zu/den/daten"
+os.environ\\\["MA\\\_BASIS"] = "/pfad/zu/den/daten"
 ```
 
 Wer den Beispieldatensatz nutzt, legt ihn in die oben gezeigte Ordnerstruktur
@@ -129,11 +128,10 @@ Der Code steht unter der MIT-Lizenz (siehe `LICENSE`).
 
 ## Zitation
 
-Der dauerhaft zitierbare Versions-DOI wird beim Einfrieren des Abgabestands
-ueber Zenodo erzeugt und an dieser Stelle ergaenzt.
+Der Volltext der Masterarbeit ist über die Publikationsdatenbank der Hochschule Campus Wien abrufbar:
 
 ```
-DOI: https://doi.org/10.xxxx/zenodo.xxxxxxx
+https://pub.hcw.ac.at/nav/classification/861356
 ```
 
 ## Autor
